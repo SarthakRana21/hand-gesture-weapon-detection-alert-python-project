@@ -38,7 +38,7 @@ while True:
             cv2.circle(img, (cx, cy), 10, (0, 255, 0), cv2.FILLED)
 
             now = datetime.datetime.now()
-            pt.sendwhatmsg('+91 9015975435','sos',now.hour,now.minute+1)
+            pt.sendwhatmsg('+91 {mobileno}','sos',now.hour,now.minute+1)
 
 
     cTime = time.time()
